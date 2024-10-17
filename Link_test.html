@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chegada da Maria Sofia</title>
+    <style>
+        body {
+            background-color: #ffe6f2;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ff66b2;
+            height: 100vh; /* Adiciona altura total da janela */
+            margin: 0; /* Remove margens padrão */
+            display: flex; /* Usar flexbox */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            text-align: center; /* Centraliza o texto */
+            position: relative; /* Para a posição da imagem de fundo */
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff3399;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .butterfly {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url('https://img.freepik.com/vetores-gratis/fundo-de-borboleta-colorida-aquarela_23-2150069837.jpg?t=st=1729194610~exp=1729198210~hmac=57cf3b853387ea2329ab1e74bee73e7e198b978ff2a8b80d815c583a4a9edff3&w=1380') no-repeat center;
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Oi Pessoal!</h1>
+        <p>Meus pais resolveram me chamar 
+            <strong>Maria Sofia</strong> 
+            e já já eu chego!
+        </p>
+    </div>
+    <div class="butterfly"></div>
+</body>
+</html>
